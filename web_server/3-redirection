@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 #install ngix and put holberton inside
-redir="\\\tlocation /redirect_me {\n\t\t return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
+redirect="\\\tlocation /redirect_me {\n\t\t return 301 https://www.youtube.com/watch?v=QH2-TGUlwu4;\n\t}\n"
 
 sudo apt-get update
 sudo apt-get install nginx -y
