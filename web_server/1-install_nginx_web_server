@@ -3,7 +3,5 @@
 sudo apt-get -y update
 sudo apt-get -y install nginx
 sudo ufw allow 'Nginx HTTP'
-echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
+sudo echo "Holberton School" | sudo tee /var/www/html/index.nginx-debian.html
 sudo service nginx restart
-curl 127.0.0.1 / 
-"We are all smart"
